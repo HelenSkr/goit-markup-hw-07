@@ -14,7 +14,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.min.css"/>
   </head>
   <body>
     <header class="section-header">
@@ -54,9 +54,9 @@
       </div>
     </header>
     <main>
-      <section class="hero">
+      <section class="section hero">
         <div class="container">
-          <h1 class="hero__title main-title">
+          <h1 class="hero__title">
             эффективные решения<br />для вашего бизнеса
           </h1>
           <button data-modal-open type="button" class="button-main">
@@ -396,10 +396,10 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-logo-contacts">
-          <a href="./index.html" class="link logo">
+          <a href="./index.html" class="link logo--white">
             <span class="logo__part">Web</span>Studio</a
           >
-          <address class="contacts-footer   address">
+          <address class="contacts-footer">
             <ul class="ul  contacts-footer__list">
               <li class="contacts-footer__item">
                 г. Киев, пр-т Леси Украинки, 26
@@ -498,7 +498,7 @@
               <li class="modal-form__item">
                 <label for="id-tel">Телефон</label>
                 <input
-                  class="input-form-modal"
+                  class="modal-form__input"
                   type="tel"
                   name="tel"
                   id="id-tel"
@@ -510,7 +510,7 @@
               <li class="modal-form__item">
                 <label for="id-email">Почта</label>
                 <input
-                  class="input-form-modal"
+                  class="modal-form__input"
                   type="email"
                   name="email"
                   id="id-email"
@@ -522,7 +522,7 @@
               <li class="modal-form__item">
                 <label for="id-comm">Комментарий</label>
                 <textarea
-                  class="modal-form__textarea     form-item-textarea"
+                  class="modal-form__textarea"
                   name="comments"
                   placeholder="Введите текст"
                   rows="7"
@@ -530,8 +530,8 @@
                 ></textarea>
               </li>
             </ul>
-            <div class="modal-form__agreement      form-item-agreement">
-              <label class="modal-form__label-agreement      form-label-agreement" for="id-agreement">
+            <div class="modal-form__agreement">
+              <label class="modal-form__label-agreement" for="id-agreement">
                 <input
                   class="modal-form__checkbox-agreement"
                   type="checkbox"

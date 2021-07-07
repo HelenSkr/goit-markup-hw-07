@@ -1,0 +1,28 @@
+
+.hero {
+    max-width: 1600px;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url(/imeges/hero_opt.jpg);
+    background-image: linear-gradient(to right, var(hero-bkg-img-gradient), var(hero-bkg-img-gradient));
+    background-size: cover;
+    background-position: 63% 37%;
+    background-repeat: no-repeat;
+    text-align: center;
+    &__title{
+      font-family: 'Roboto';
+      color: var(--white-text);
+      text-transform: uppercase;
+      font-weight: 900;
+      font-style: normal;
+      font-size: 44px;
+      line-height: 1.36;
+      letter-spacing: 3px;
+      text-align: center;
+    }
+  }
+
+  
