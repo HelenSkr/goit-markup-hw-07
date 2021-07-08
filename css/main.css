@@ -37,7 +37,7 @@
   margin-right: auto;
   padding-top: 200px;
   padding-bottom: 200px;
-  background-image: url(./imeges/hero.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../imeges/hero.jpg);
   background-size: cover;
   background-position: 63% 37%;
   background-repeat: no-repeat;
