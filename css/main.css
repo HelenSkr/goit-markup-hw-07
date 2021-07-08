@@ -895,7 +895,7 @@ ul {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.section-portfolio__button:hover, .section-portfolio__button:focus {
+.section-portfolio__button--current, .section-portfolio__button:hover, .section-portfolio__button:focus {
   background-color: var(--accent-color);
   color: var(--white-text);
   cursor: pointer;
@@ -908,22 +908,6 @@ ul {
 
 .section-portfolio__nav-item:last-child {
   margin-right: 0;
-}
-
-.section-portfolio__button--current {
-  display: inline-block;
-  background-color: var(--accent-color);
-  box-shadow: 0px 3px 1px var(--box-shadow-ten), 0px 1px 2px var(--box-shadow-eight), 0px 2px 2px var(--box-shadow-twelve);
-  color: var(--white-text);
-  cursor: pointer;
-  border-radius: 4px;
-  border: 4px var(--background-color-lignt-blue);
-  padding: 6px 22px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  line-height: 1.63;
-  font-weight: 500;
 }
 
 /*скрываем синий оверлей на части катрочки с подписью*/
