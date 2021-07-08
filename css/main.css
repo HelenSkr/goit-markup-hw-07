@@ -259,7 +259,7 @@ ul {
   margin-right: auto;
   padding-top: 200px;
   padding-bottom: 200px;
-  background-image: url(/imeges/hero_opt.jpg);
+  background-image: url(/imeges/hero.jpg);
   background-image: linear-gradient(to right, var(hero-bkg-img-gradient), var(hero-bkg-img-gradient));
   background-size: cover;
   background-position: 63% 37%;
